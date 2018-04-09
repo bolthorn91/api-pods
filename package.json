@@ -1,0 +1,35 @@
+{
+  "name": "banana-coin",
+  "version": "1.0.0",
+  "description": "For Gran Canaria API crash course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest src/**/**/*.spec.js --collectCoverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/sospedra/banana-coin.git"
+  },
+  "author": "Rubén Sospedra",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://gitlab.com/sospedra/banana-coin/issues"
+  },
+  "homepage": "https://gitlab.com/sospedra/banana-coin#README",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "helmet": "^3.12.0",
+    "jsonwebtoken": "^8.2.1",
+    "lodash": "^4.17.5",
+    "morgan": "^1.9.0",
+    "pretty-error": "^2.1.1",
+    "express-status-monitor": "^1.0.1"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "nodemon": "^1.17.3"
+  }
+}
