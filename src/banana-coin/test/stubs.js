@@ -6,6 +6,13 @@ const getBody = module.exports.getBody = () => ({
   value: fake
 })
 
+const getBodyUpdate = module.exports.getBodyUpdate = () => ({
+  name: 'newcreate',
+  status: true,
+  value: fake,
+  date: Date.now()
+})
+
 module.exports.fake = fake
 module.exports.createRes = (send = jest.fn(), sendStatus = jest.fn()) => ({ send, sendStatus })
 module.exports.createReq = (body = getBody(), id = getID()) => ({ body, params: { id } })

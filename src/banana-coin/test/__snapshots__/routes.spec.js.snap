@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`operations routes creates a new banana coin: [object Object] 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      1337,
+    ],
+  ],
+}
+`;
+
+exports[`operations routes return all banana coins: [object Object] 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      1337,
+    ],
+  ],
+}
+`;

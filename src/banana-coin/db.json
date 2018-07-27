@@ -1,5 +1,16 @@
 {
-  "lastID": -1,
-  "lastModified": 0,
-  "logs": []
+    "lastID": 1532438508559,
+    "logs": {
+        "lastID": -1,
+        "lastModified": 0,
+        "logs": [
+            {
+                "id": 1532438508559,
+                "status": "'true'",
+                "value": "123124",
+                "date": 1532438508559
+            }
+        ]
+    },
+    "lastModified": 1532438508564
 }

@@ -25,5 +25,5 @@ module.exports = (dirname, dbname) => {
   const getRegistry = getRegistryFactory(DBPath)
   const saveRegistry = saveRegistryFactory(DBPath)
 
-  return {}
+  return {getRegistry, saveRegistry}
 }
